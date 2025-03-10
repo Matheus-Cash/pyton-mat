@@ -14,4 +14,4 @@ else:
     x1 = (-b + delta ** (1 / 2)) / (2 * a)
     x2 = (-b - delta ** (1 / 2)) / (2 * a)
 
-    print("x1: {}, x2: {}".format(x1, x2))
+    print("x1: {x1}, x2: {}".format(x1, x2))
