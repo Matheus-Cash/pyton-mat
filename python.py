@@ -1,14 +1,17 @@
-import math
+a = float(input('Entre com o valor de a: '))
+b = float(input('Entre com o valor de b: '))
+c = float(input('Entre com o valor de c: '))
 
-## -b +- Raiz (b2 - 4 * a * C) 2/a
+delta = (b ** 2) - 4 * a * c
 
-a = float(input('digite o valor de a:'))
-b = float(input('digite o valor de b:')
+print("\n**************************\n")
 
-delta = (b ** 2) - (4 * a * c)
+if a == 0:
+    print("O valor de a, deve ser diferente de 0")
+elif delta < 0:
+    print("Sem raízes reais")
+else:
+    x1 = (-b + delta ** (1 / 2)) / (2 * a)
+    x2 = (-b - delta ** (1 / 2)) / (2 * a)
 
-
-x1 = (-b + Raiz quadrada de delta) / (2*a)
-x2 =-(b - Raiz quadrada de delta) / (2*a)
-
-print(f'O x1 é {x1} e o x2 é o {x2}')
+    print("x1: {}, x2: {}".format(x1, x2))
