@@ -1,4 +1,4 @@
-impor math
+import math
 
 ## -b +- Raiz (b2 - 4 * a * C) 2/a
 
