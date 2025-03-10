@@ -3,7 +3,7 @@ import math
 ## -b +- Raiz (b2 - 4 * a * C) 2/a
 
 a = float(input('digite o valor de a:'))
-b = ......
+b = float(input('digite o valor de b:')
 
 delta = (b ** 2) - (4 * a * c)
 
