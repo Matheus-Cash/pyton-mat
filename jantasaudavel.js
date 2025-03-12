@@ -1,3 +1,4 @@
+const jantaSaudavel = {
 carboidrato: 'Batata Doce Assada',
 salada: 'Alface com Azeite de Oliva',
 proteina: 'Peito de Frango Grelhado',
@@ -10,4 +11,5 @@ objjantasaudavel.proteina = 'Peito de Frango Grelhado';
 objjantasaudavel.bebida = 'Suco de Laranja Natural';
 objjantasaudavel.sobremesa = 'Salada de Frutas';
 
-console.log(objjantasaudavel);
+console.log(jantaSaudavel);
+}
