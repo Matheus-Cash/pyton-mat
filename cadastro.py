@@ -9,3 +9,11 @@ while True:
     print(''\n--- Adicionar Cliente ---'')
     nome = input('Nome: ')
     telefone = input ('telefone')
+
+    cliente = {
+        'nome': nome,
+        'telefone': telefone,
+    }
+
+    clientes.append(cliente)
+    print(''\n cliente cadastrado com sucesso'')'
